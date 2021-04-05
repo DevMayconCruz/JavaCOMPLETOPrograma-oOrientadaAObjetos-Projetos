@@ -82,12 +82,24 @@ public class PrimeiraAula {
 		   double y2=0;
 			  y2 =  sc.nextDouble();
 			   System.out.println(y2);
-		   sc.close();
+		
 		   
 		   //Comentário teste\\
 		   System.out.println("Maycon Cruz desenvolvedor! ");
+		   
+		 String x1;
+		 int y1=0;
+		 double z1=0;
+		 
+		 x1 = sc.next();
+		 y1 = sc.nextInt();
+		 z1 = sc.nextDouble();
+		 
+		 System.out.println(x1);
+		 System.out.println(y1);
+		 System.out.println(z1);
 
-
+		   sc.close();
 		} 
 
 
