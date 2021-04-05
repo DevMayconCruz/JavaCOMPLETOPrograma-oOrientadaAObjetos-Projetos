@@ -5,7 +5,7 @@ public class Exercicios_1 {
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		//Criar um algoritmo que exiba a primeira letra de um nome 
+		//Criar um algoritmo que exiba a primeira letra de um nome!
 		 char x;
 		   
 		 x =  sc.next().charAt(0); 
