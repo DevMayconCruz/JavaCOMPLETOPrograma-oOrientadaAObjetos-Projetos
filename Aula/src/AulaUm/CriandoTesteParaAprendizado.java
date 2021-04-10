@@ -49,26 +49,26 @@ public class CriandoTesteParaAprendizado {
 		b = (r == 0) ? "v" : "f";
 		// x + (y^2) + 2 = 0
 		System.out.println(x + " +(" + y +"^2)"+" + 2 = " + df.format(r) + b);
-		             //Quero jogar esse resultado a baixo depois de todos os outros resultado
+		             //Quero jogar esse resultado a baixo depois de todos os outros resultados
 		if (r == 0) {
 
 		System.out.println("{(" + x + ")} {(" + y + ")}");
 
-		       }
+		         }
 
-		    }
+		     }
 
-		}
+		 }
 
-	}
+	 }
+
+ }	
+
+
 
 		
-
-
-
 		
-		
-	}
+	
 	
 	
 	
