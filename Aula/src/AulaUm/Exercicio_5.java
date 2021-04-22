@@ -39,8 +39,7 @@ Entrada: 6 145 15.55 **********Saída Númber = 6 Salary = U$ 2254.75
 			
 			System.out.printf("Funcionario número: "+numeroFuncionario+" valor do salário a receber:%.2f%n ",totalSalario);
 	  
-		
-			
+	
 		
 		
 		
