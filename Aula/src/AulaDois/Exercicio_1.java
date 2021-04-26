@@ -16,34 +16,29 @@ public class Exercicio_1 {
     Entrada: 0.1 0.1                            Saída: Q1
     Entrada: 0.0 0.0                            Saída: Origem                         */
 
+	double y = 0;
+	double x = 0;
 
-	    double y = 0;
-		double x = 0;
-		
-		
-		System.out.println("Digite o valor de y: ");
-		y = in.nextDouble();
-		
-		System.out.println("Digite o valor de x: ");
-		x = in.nextDouble();
-		
-		
-		if((x>0)&&(y>0)) {
-			
-			System.out.println("Q1");
-			
-		}else if((x<0)&&(y>0)) {
-			
-			System.out.println("Q4");
-			
-		}else if((x==0)&&(y==0)){
-			
-            System.out.println("Origem");
-			
-		}
-		
-		
-    }
-	
-	
+	System.out.println("Digite o valor de y: ");
+	y = in.nextDouble();
+
+	System.out.println("Digite o valor de x: ");
+	x = in.nextDouble();
+
+	if ((x > 0) && (y > 0)) {
+
+		System.out.println("Q1");
+
+	} else if ((x < 0) && (y > 0)) {
+
+		System.out.println("Q4");
+
+	} else if ((x == 0) && (y == 0)) {
+
+		System.out.println("Origem");
+
+	}
+
+}
+
 }
