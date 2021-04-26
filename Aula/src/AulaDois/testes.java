@@ -4,12 +4,13 @@ public class testes {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
-	int x = 5;
-    int horas=0;
+		
+	    int x = 5;
+        int horas=0;
 	
-	 if((x<=20) && (x==5)) {
+	  if((x<=20) && (x==5)) {
+	  System.out.println("True");
 		  
-		  System.out.println("True");
 		  }
 	  
 	 
@@ -33,11 +34,6 @@ public class testes {
 	 
 	 
 		
-	}
-	
-	
-	
-	
-	
-	
-}
+	     }
+ 	
+    }
